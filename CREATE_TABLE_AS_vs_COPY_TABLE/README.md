@@ -2,7 +2,7 @@
 
 ## Download the SQL Script
 
-You can download the SQL script from the repository to quickly and easily copy tables in your database.
+You can download the SQL script [SQL_Table_Copy_Methods.sql] from the repository to quickly and easily copy tables in your database.
 
 ## Follow for More SQL and Data Analysis Tutorials
 
