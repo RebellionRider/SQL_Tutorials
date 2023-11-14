@@ -31,9 +31,9 @@ CREATE TABLE stock (
   expiry_date DATE NOT NULL
 );
 
--- Truncate tables to remove any existing data
-TRUNCATE TABLE medicines;
-TRUNCATE TABLE stock;
+-- Truncate tables to remove any existing data [Un-comment these statements if needed]
+-- TRUNCATE TABLE medicines;
+-- TRUNCATE TABLE stock;
 
 -- Insert 5 rows into the 'medicines' table
 INSERT INTO medicines (medicine_id, medicine_name, MRP, expiry_date)
