@@ -63,3 +63,9 @@ USING stock
 WHERE medicines.medicine_id = stock.medicine_id
   AND stock.expiry_date <= CURRENT_DATE;
 
+-- Alternate approach using INNER JOIN
+DELETE FROM medicines
+FROM medicines
+INNER JOIN stock ON medicines.medicine_id = stock.medicine_id
+WHERE stock.expiry_date <= CURRENT_DATE;
+
